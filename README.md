@@ -24,8 +24,8 @@ pip install -r requirements.txt
 ## 🚀 Usage
 Run the script from the command line using Python. It accepts two optional arguments:
 
-<b>--username <username>:</b> Search for the given username across supported platforms.<br>
-<b>--phone <phone_number>:</b> Perform OSINT on the phone number (include country code, e.g., +1 for US).
+<b>--phone {phone_number}:</b> Perform OSINT on the phone number - [include country code](https://www.countrycode.org/).<br>
+<b>--username {username}:</b> Search for the given username across supported platforms.
 <br>
 <br>
 <img width="621" height="338" alt="image" src="https://github.com/user-attachments/assets/bf28a294-00c6-4095-bd1b-7bf56a0194c3" />
@@ -38,7 +38,7 @@ python3 youtraceone.py --username {username}
 
 You can use one or both arguments in a single run.
 ```
-python youtraceone.py --username exampleuser --phone +1234567890
+python3 youtraceone.py --username exampleuser --phone +1234567890
 ```
 This will run both searches sequentially.
 ## Contributing
